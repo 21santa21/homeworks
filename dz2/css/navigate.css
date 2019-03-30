@@ -1,0 +1,57 @@
+.header { 
+    width: 900px;
+    margin: 0 auto 100px;
+    padding-top: 75px;
+}
+
+.site-navigation {
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-weight:400px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 120px;
+    width: 90px;
+}
+
+.menu-item:hover {
+    color: #03a9f4;
+}
+
+.conteiner-btn{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.btn{
+    height: 60px;
+    width: 165px;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: 280px;
+    width: 400px;
+}
+main{
+    width: 900px;
+}
+
+article{
+    width: 400px;
+    display: inline-block;
+    margin-right: 60;
+}
+
+article:nth-child(3n+2){
+    margin-right: 0;
+}
+
+
+
+ 
