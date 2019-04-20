@@ -8,12 +8,12 @@
 .site-navigation {
     color: #626262;
     font-family: 'Playfair Display', serif;
-    font-weight:400px;
+    font-weight:400;
     text-transform: uppercase;
     text-align: center;
 }
 
-.menu-item {
+.menu_site {
     display: inline-block;
     margin-right: 120px;
     width: 90px;
@@ -33,6 +33,10 @@
 .btn{
     height: 60px;
     width: 165px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
 }
 
 img {
@@ -52,6 +56,7 @@ article {
     width: 400px;
     display: inline-block;
     margin-right: 60px;
+    margin-bottom: 135px;
 }
 
 article:nth-child(2n+2) {
@@ -59,17 +64,26 @@ article:nth-child(2n+2) {
 }
 
 p {
-    font-size: 16px;
-    margin-bottom: 135px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
 }
 
 h6 {
     font-family: 'Ubuntu', sans-serif;
     color: rgba(180, 173, 158, 255);
     margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 14px; 
+    color: #b4ad9e; 
+    text-transform: uppercase; 
 }
 
 h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #626262;
     margin-bottom: 40px;
 }
 
