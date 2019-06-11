@@ -27,9 +27,11 @@ main{
 
 .ttitle {
     font-size: 18px;
-    font-family: 'Roboto-Black', serif;
+    font-family: "Roboto-Black", sans-serif;
     margin-top: 10px;
     text-transform: uppercase;
+    color: rgba(255, 255, 255, 255);
+    text-align: left;
 }
 
 .card_prise {
@@ -44,9 +46,11 @@ main{
 
 .prise {
     font-size: 18px;
-    font-family: 'Roboto-Black', serif;
+    font-family: "Roboto-Black", sans-serif;
     margin-top: 10px;
     text-transform: uppercase;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
 }
 
 .card:hover > .card_title {
