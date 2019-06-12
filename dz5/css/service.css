@@ -1,0 +1,111 @@
+.main {
+    width: 1200px;
+    margin: auto;
+}
+
+.services {
+    text-align: center;
+}
+
+.pre-title {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    margin-bottom: 24px;
+    color: #333333;
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-style: 30px;
+    margin-bottom: 65px;
+    font-weight: 700;
+}
+
+.title::after {
+    height: 3px;
+    width: 60px;
+    content: '';
+    margin: auto;
+    background-color: #f38181;
+    margin-top: 40px;
+    display: block;
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.services-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+    font-weight: 400;
+    padding-left: 62px;
+}
+
+.photo::before, .web::before, .creativity::before, .seo::before, .html::before, .digital::before {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-right: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.photo::before {
+    background-image: url(../img/alarm.png);
+}
+
+.web::before {
+    background-image: url(../img/line.png);
+}
+
+.creativity::before {
+    background-image: url(../img/computer.png);
+}
+
+.seo::before {
+    background-image: url(../img/book.png);
+}
+
+.html::before {
+    background-image: url(../img/home.png);
+}
+
+.digital::before {
+    background-image: url(../img/digital.png);
+}
+
+.services-card {
+    display: block;
+    min-width: 320px;
+    width: 320px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.wrapper-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgba(153, 153, 153, 255);
+    text-align: center;
+    margin-bottom: 90px;
+    margin-top: 45px;
+}
